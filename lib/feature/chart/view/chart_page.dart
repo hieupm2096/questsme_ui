@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-class RandomPage extends StatelessWidget {
-  const RandomPage({super.key});
+class ChartPage extends StatelessWidget {
+  const ChartPage({super.key});
+
+  static String route = '/random';
 
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-class GamePage extends StatelessWidget {
-  const GamePage({super.key});
+class ProfilePage extends StatelessWidget {
+  const ProfilePage({super.key});
+
+  static String route = '/profile';
 
   @override
   Widget build(BuildContext context) {
