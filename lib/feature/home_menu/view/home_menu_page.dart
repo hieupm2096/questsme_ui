@@ -4,8 +4,8 @@ import 'package:questsme_ui/shared/shared.dart';
 
 class HomeMenuPage extends StatelessWidget {
   const HomeMenuPage({
-    super.key,
     required this.navigationShell,
+    super.key,
   });
 
   /// The navigation shell and container for the branch Navigators.

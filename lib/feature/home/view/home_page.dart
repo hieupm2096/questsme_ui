@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:questsme_ui/shared/shared.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -7,6 +8,13 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const FullPageScaffold(
+      pageTitle: 'Home',
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+        ),
+      ),
+    );
   }
 }

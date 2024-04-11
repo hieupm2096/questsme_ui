@@ -14,6 +14,10 @@ import 'package:flutter/services.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/ic_heart_outline.svg
+  SvgGenImage get icHeartOutline =>
+      const SvgGenImage('assets/icons/ic_heart_outline.svg');
+
   /// File path: assets/icons/ic_nav_home.svg
   SvgGenImage get icNavHome =>
       const SvgGenImage('assets/icons/ic_nav_home.svg');
@@ -38,21 +42,42 @@ class $AssetsIconsGen {
   SvgGenImage get icNavSearch =>
       const SvgGenImage('assets/icons/ic_nav_search.svg');
 
+  /// File path: assets/icons/ic_qcoin.svg
+  SvgGenImage get icQcoin => const SvgGenImage('assets/icons/ic_qcoin.svg');
+
+  /// File path: assets/icons/ic_wallet.svg
+  SvgGenImage get icWallet => const SvgGenImage('assets/icons/ic_wallet.svg');
+
   /// List of all assets
   List<SvgGenImage> get values => [
+        icHeartOutline,
         icNavHome,
         icNavMyGame,
         icNavMyGameActive,
         icNavProfile,
         icNavQuest,
-        icNavSearch
+        icNavSearch,
+        icQcoin,
+        icWallet
       ];
+}
+
+class $AssetsImagesGen {
+  const $AssetsImagesGen();
+
+  /// File path: assets/images/logo_white.svg
+  SvgGenImage get logoWhite =>
+      const SvgGenImage('assets/images/logo_white.svg');
+
+  /// List of all assets
+  List<SvgGenImage> get values => [logoWhite];
 }
 
 class Assets {
   Assets._();
 
   static const $AssetsIconsGen icons = $AssetsIconsGen();
+  static const $AssetsImagesGen images = $AssetsImagesGen();
 }
 
 class AssetGenImage {
